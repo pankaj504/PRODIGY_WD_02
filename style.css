@@ -1,0 +1,75 @@
+body {
+  background-color: papayawhip;
+  margin: 50px;
+  font-family: Times New Roman;
+}
+
+.container {
+  background-color: thistle;
+  height: 350px;
+  width: 550px;
+  text-align: center;
+}
+
+p {
+  color: purple;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.digits {
+  font-size: 70px;
+  color: papayawhip;
+}
+
+.text {
+  font-size: 20px;
+  color: hotpink;
+  font-weight: bold;
+}
+
+#buttons {
+  margin-top: 35px;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+  width: 90px;
+  height: 50px;
+  padding: 8px 5px 8px 2px;
+  margin: 10px 25px 20px 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.7s;
+  color: white;
+  font-weight: 550;
+  border: 0;
+  font-family: Times new Roman;
+}
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover {
+  color: indigo;
+}
+
+#start {
+  background-color: indigo;
+}
+
+#stop {
+  background-color: mediumpurple;
+}
+
+#reset {
+  background-color: plum;
+}
+
+#start:hover,
+#stop:hover,
+#reset:hover {
+  background-color: white;
+}
